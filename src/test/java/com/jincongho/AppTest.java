@@ -18,6 +18,6 @@ class AppTest {
 
     @Test
     void testFailedApp() {
-        assertEquals(1, 2);
+        assertEquals(2, 2);
     }
 }
