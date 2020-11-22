@@ -15,4 +15,9 @@ class AppTest {
     void testApp() {
         assertEquals(1, 1);
     }
+
+    @Test
+    void testFailedApp() {
+        assertEquals(1, 2);
+    }
 }
