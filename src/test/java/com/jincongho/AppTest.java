@@ -20,4 +20,9 @@ class AppTest {
     void testFailedApp() {
         assertEquals(2, 2);
     }
+
+    @Test
+    void testFailedApp2() {
+        assertEquals(3, 3);
+    }
 }
